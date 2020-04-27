@@ -2,7 +2,7 @@ name: Seaborn-pandas CI/CD
 
 on:
   push:
-    branches: [ master ]n
+    branches: [ master ]
   pull_request:
     branches: [ master ]
 
