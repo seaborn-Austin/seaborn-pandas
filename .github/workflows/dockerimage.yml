@@ -1,7 +1,7 @@
 name: Seaborn-pandas CI/CD
 
 on:
-  push:d
+  push:
     branches: [ master ]
   pull_request:
     branches: [ master ]
