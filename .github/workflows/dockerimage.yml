@@ -1,4 +1,4 @@
-name: seaborn-pandas CI/CD
+name: Seaborn-pandas CI/CD
 
 on:
   push:
