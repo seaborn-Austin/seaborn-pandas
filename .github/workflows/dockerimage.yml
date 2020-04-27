@@ -1,4 +1,4 @@
-name: Codegifs CI/CD
+name: public CI/CD
 
 on:
   push:
@@ -17,6 +17,6 @@ jobs:
         with:
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
-          repository: pard68/codegifs
+          repository: seaborn-pandas/public
           tags: latest
         
