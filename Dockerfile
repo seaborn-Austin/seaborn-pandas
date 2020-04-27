@@ -1,3 +1,3 @@
 FROM nginx
 EXPOSE 80
-COPY seaborn-pandas/ /usr/share/nginx/html
+COPY public/ /usr/share/nginx/html
