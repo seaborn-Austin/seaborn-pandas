@@ -1,0 +1,6 @@
+version: '3'
+services:
+  codegifs:
+    image: "seaborn-Austin/seaborn-pandas"
+    ports:
+      - 80:8080
