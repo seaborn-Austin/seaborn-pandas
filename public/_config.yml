@@ -1,2 +1,2 @@
-theme: jekyll-theme-DevJournal
+theme: jekyll-theme-developer
 bundle exec jekyll serve
