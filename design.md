@@ -1,4 +1,4 @@
-layout: page
+layout: austin.wannabedev.net
 title: "Austin's Project"
-permalink: /public/
+permalink: /public/ austin.wannabedev.net
 tagline : "Working project for Austin."
