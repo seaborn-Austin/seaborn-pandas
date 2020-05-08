@@ -1,2 +1,2 @@
 gem "jekyll"
-gem "jekyll-theme-developer"
+gem 'jekyll-theme-developer', '~> 0.4.2'
