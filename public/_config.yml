@@ -1,4 +1,4 @@
-theme: jekyll-theme-developer
+theme: 'jekyll-theme-developer', '~> 0.4.2'
 bundle exec jekyll serve
 
 # Welcome to Jekyll!
