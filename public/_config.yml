@@ -1,5 +1,5 @@
-#theme: jekyll-theme-developer
-#bundle exec jekyll serve
+theme: jekyll-theme-developer
+bundle exec jekyll serve
 
 # Welcome to Jekyll!
 #
