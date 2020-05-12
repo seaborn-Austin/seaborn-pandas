@@ -12,7 +12,16 @@ exclude: ["Gemfile"]
 #AUSTIN'S COMMENT: I don't know what this is yet
 #description: "<h3>Hello, world!</h3><h1>DevJournal</h1><h3>Awesome Jekyll Theme for Developers!</h3>Hope you like it!"
 
-
+#plugins
+plugins:
+  - bundler
+  - rake
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-theme-developer
 
 #baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://austin.wannabedev.net" # the base hostname & protocol for your site
