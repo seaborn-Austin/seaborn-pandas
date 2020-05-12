@@ -1,9 +1,9 @@
 source 'https://rubygems.org'
 
 bundle exec jekyll serve
+gem 'jekyll', '~> 4.0', '>= 4.0.1'
 
-group :jekyll_plugins do
-  gem 'jekyll', '~> 4.0', '>= 4.0.1'
+group :jekyll_plugins do  
   gem 'bundler', '~> 2.1', '>= 2.1.4'
   gem 'rake', '~> 13.0', '>= 13.0.1'
   gem 'jekyll-feed', '~> 0.13.0'
