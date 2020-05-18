@@ -1,3 +1,4 @@
+#Moved this from the root (seaborn-pandas) to public directory
 GEM
   remote: https://rubygems.org/
   specs:
