@@ -17,7 +17,7 @@ jobs:
       - name: peepah
         run: sudo apt-get install -y bundler 
       - name: yipyip
-        run: sudo install bundle
+        run: sudo gem install bundle
       - name: heehoo  
         run: sudo bundle exec jekyll build --trace
       - name: Build Jekyll
