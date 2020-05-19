@@ -11,7 +11,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-              
+       
+      - name: yipyip
+        run: bundle install
+      - name: heehoo  
+        run: bundle exec jekyll build
       - name: "Build Jekyll"
         run: "jekyll build" 
       - name: "Build image"
