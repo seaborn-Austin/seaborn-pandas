@@ -32,7 +32,7 @@ url: "https://austin.wannabedev.net" # the base hostname & protocol for your sit
 #github_username:  jekyll
 
 # Build settings
-theme: developer
+theme: jekyll-theme-developer
 plugins:
 #jekyll-feed was the only plugin here prior to my edit
   - bundler
