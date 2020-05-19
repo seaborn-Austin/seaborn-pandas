@@ -11,9 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-       
-      - name: anothaone
-        run: sudo gem uninstall bundle
+     
       - name: meemah
         run: sudo apt-get update
       - name: peepah
