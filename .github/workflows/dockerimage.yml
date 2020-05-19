@@ -16,7 +16,7 @@ jobs:
         run: sudo apt-get update
       - name: sudo apt-get install -y bundler
         run: sudo apt-get install -y bundler 
-      - name: sudo gem install bundle
+      - name: sudo gem install bundler
         run: sudo gem install bundle
       - name: sudo bundle exec jekyll build --trace  
         run: sudo bundle exec jekyll build --trace
