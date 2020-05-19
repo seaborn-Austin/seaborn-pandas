@@ -25,7 +25,6 @@ plugins:
   - rake
   - jekyll-feed
   - jekyll-gist
-  - jekyll-paginate
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-theme-console
