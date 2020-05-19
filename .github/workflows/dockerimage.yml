@@ -13,9 +13,9 @@ jobs:
       - uses: actions/checkout@v2
        
       - name: yipyip
-        run: bundle install
+        run: "bundle install"
       - name: heehoo  
-        run: bundle exec jekyll build
+        run: "bundle exec jekyll build"
       - name: "Build Jekyll"
         run: "jekyll build" 
       - name: "Build image"
