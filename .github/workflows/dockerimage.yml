@@ -13,7 +13,7 @@ jobs:
       - uses: actions/checkout@v2
        
       - name: meemah
-        run: apt-get update
+        run: sudo apt-get update
       - name: peepah
         run: apt-get install -y bundler 
       - name: yipyip
