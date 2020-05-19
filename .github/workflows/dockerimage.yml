@@ -21,7 +21,7 @@ jobs:
       - name: yipyip
         run: sudo bundle install
       - name: heehoo  
-        run: sudo bundle exec jekyll build
+        run: "sudo bundle exec jekyll build --trace"
       - name: "Build Jekyll"
         run:  jekyll build 
       - name: "Build image"
