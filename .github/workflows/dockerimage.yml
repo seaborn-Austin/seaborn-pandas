@@ -12,13 +12,13 @@ jobs:
     steps:
       - uses: actions/checkout@v2
      
-      - name: meemah
+      - name: sudo apt-get update
         run: sudo apt-get update
-      - name: peepah
+      - name: sudo apt-get install -y bundler
         run: sudo apt-get install -y bundler 
-      - name: yipyip
+      - name: sudo gem install bundle
         run: sudo gem install bundle
-      - name: heehoo  
+      - name: sudo bundle exec jekyll build --trace  
         run: sudo bundle exec jekyll build --trace
       - name: Build Jekyll
         run:  jekyll build 
