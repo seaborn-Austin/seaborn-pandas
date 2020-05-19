@@ -21,11 +21,11 @@ jobs:
       - name: yipyip
         run: sudo bundle install
       - name: heehoo  
-        run: "sudo bundle exec jekyll build --trace"
-      - name: "Build Jekyll"
+        run: sudo bundle exec jekyll build --trace
+      - name: Build Jekyll
         run:  jekyll build 
-      - name: "Build image"
-        run:  "run: docker build -t 5348094/public:latest ."  
+      - name: Build image
+        run:  docker build -t 5348094/public:latest .
       - name: Build the Docker image
         uses: docker/build-push-action@v1
         
