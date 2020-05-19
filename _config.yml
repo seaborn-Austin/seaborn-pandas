@@ -27,7 +27,7 @@ plugins:
   - jekyll-gist
   - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-theme-console
+  #- jekyll-theme-console
 
 # Exclude from processing.
 # The following items will not be processed, by default.
