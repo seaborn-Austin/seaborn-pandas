@@ -15,7 +15,7 @@ jobs:
       - name: "Build Jekyll"
         run: "jekyll build" 
       - name: "Build image"
-      - run:  "run: docker build -t 5348094/public:latest ."  
+        run:  "run: docker build -t 5348094/public:latest ."  
       - name: Build the Docker image
         uses: docker/build-push-action@v1
         
