@@ -12,6 +12,8 @@ jobs:
     steps:
       - uses: actions/checkout@v2
        
+      - name: anothaone
+        run: sudo gem install jekyll-theme-developer
       - name: meemah
         run: sudo apt-get update
       - name: peepah
