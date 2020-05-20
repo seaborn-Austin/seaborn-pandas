@@ -23,7 +23,7 @@ jobs:
       - name: jekyll build --trace  
         run:  sudo bundle exec jekyll build --trace
       - name: Build Jekyll
-        run:  jekyll build --trace 
+        run:  sudo jekyll build --trace 
       - name: Build image
         run:  docker build -t 5348094/public:latest .
       - name: Build the Docker image
