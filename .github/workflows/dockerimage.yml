@@ -25,7 +25,7 @@ jobs:
       - name: Build Jekyll
         run:  sudo jekyll build --trace 
       - name: Build image
-        run:  docker build -t 5348094/public:latest .
+        run:  docker build -t 5348094/_site:latest .
       - name: Build the Docker image
         uses: docker/build-push-action@v1
         
