@@ -31,7 +31,7 @@ jobs:
         run:  sudo jekyll build --trace 
          
       - name: serve
-        run: bundle exec jekyll serve
+        run: sudo bundle exec jekyll serve --trace
         
       - name: Build image
         run:  docker build -t 5348094/austin.wannabedev.net:latest .
