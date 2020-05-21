@@ -23,15 +23,15 @@ jobs:
          
       - name:  install bundle
         run: sudo bundle install
-        
-      - name: serve
-        run: bundle exec jekyll serve
-        
+       
       - name: jekyll build --trace  
         run:  sudo bundle exec jekyll build --trace
         
       - name: Build Jekyll
         run:  sudo jekyll build --trace 
+         
+      - name: serve
+        run: bundle exec jekyll serve
         
       - name: Build image
         run:  docker build -t 5348094/austin.wannabedev.net:latest .
