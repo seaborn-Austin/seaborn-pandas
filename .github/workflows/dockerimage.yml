@@ -1,5 +1,7 @@
 name: Seaborn-pandas CI/CD
 
+name: Docker Image CI/CD
+
 on:
   push:
     branches: [ master ]
@@ -11,34 +13,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-     
-      - name: install rake
-        run: sudo gem install rake 
-            
-      - name: get update
-        run: sudo apt-get update
         
-      - name: install -y bundler
-        run: sudo apt-get install -y bundler
-         
-      - name:  install bundle
-        run: sudo bundle install
-       
-      - name: jekyll build --trace  
-        run:  sudo bundle exec jekyll build --trace
-        
-      - name: Build Jekyll
-        run:  sudo jekyll build --trace 
-   
-      - name: Build image
-        run:  docker build -t 5348094/austin.wannabedev.net:latest .
-       
       - name: Build the Docker image
-        uses: docker/build-push-action@v1
-        
         with:
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
           repository: 5348094/austin.wannabedev.net
           tags: latest
-        
