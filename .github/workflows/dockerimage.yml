@@ -1,7 +1,5 @@
 name: Seaborn-pandas CI/CD
 
-name: Docker Image CI/CD
-
 on:
   push:
     branches: [ master ]
