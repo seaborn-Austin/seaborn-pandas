@@ -1,0 +1,9 @@
+---
+layout: post
+title: "TEST"
+date: 2020-05-26 04:40:00
+categories: jekyll
+permalink: "/my-url/"
+---
+
+This is a test from the _posts folder.
