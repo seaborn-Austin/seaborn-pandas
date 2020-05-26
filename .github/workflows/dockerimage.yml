@@ -12,6 +12,24 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         
+         - name: install rake
+        run: sudo gem install rake
+
+      - name: get update
+        run: sudo apt-get update
+
+      - name: install -y bundler
+        run: sudo apt-get install -y bundler
+
+      - name:  install bundle
+        run: sudo bundle install
+
+      - name: jekyll build --trace
+        run:  sudo bundle exec jekyll build --trace
+
+      - name: Build Jekyll
+        run:  sudo jekyll build --trace
+        
       - name: Build the Docker image
         with:
           username: ${{ secrets.DOCKER_USERNAME }}
