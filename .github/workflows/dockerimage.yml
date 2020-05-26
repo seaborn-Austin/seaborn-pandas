@@ -12,7 +12,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         
-         - name: install rake
+      - name: install rake
         run: sudo gem install rake
 
       - name: get update
