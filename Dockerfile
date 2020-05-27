@@ -1,7 +1,7 @@
 FROM ubuntu as base
 RUN apt-get update && \
     apt-get install -y bundler && \
-    gem install rake && \ gem install bundler && \
+    gem install rake && \ 
     mkdir /build
 
 FROM base as builder
