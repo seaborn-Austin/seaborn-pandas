@@ -7,13 +7,7 @@ source "https://rubygems.org"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-  gem 'jekyll', '~> 4.0', '>= 4.0.1'
-# This is the default theme for new Jekyll sites. You may change this to anything you like.
-  gem 'jekyll-theme-console', '~> 0.3.7' #I replaced Minima gem with this one
-  gem 'jekyll-gist', '~> 1.5'
-  gem 'rake', '~> 13.0', '>= 13.0.1'
-  gem 'jekyll-seo-tag', '~> 2.6', '>= 2.6.1'
-  gem 'bundler', '~> 2.1', '>= 2.1.4'
+  
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
 #gem "github-pages", group: :jekyll_plugins
@@ -21,9 +15,16 @@ source "https://rubygems.org"
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.13.0"
   #moved up from the below install_if
-  gem 'jekyll-sitemap', '~> 1.4'
-
-  
+  #Beginning
+  gem 'jekyll', '~> 4.0', '>= 4.0.1'
+# This is the default theme for new Jekyll sites. You may change this to anything you like.
+  gem 'jekyll-theme-console', '~> 0.3.7' #I replaced Minima gem with this one
+  gem 'jekyll-gist', '~> 1.5'
+  gem 'rake', '~> 13.0', '>= 13.0.1'
+  gem 'jekyll-seo-tag', '~> 2.6', '>= 2.6.1'
+  gem 'bundler', '~> 2.1', '>= 2.1.4'
+  #End
+  gem 'jekyll-sitemap', '~> 1.4'  
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
