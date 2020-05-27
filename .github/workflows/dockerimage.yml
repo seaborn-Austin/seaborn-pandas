@@ -12,6 +12,9 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         
+        - name: update bundler:
+          run: gem install bundler
+        
       - name: Build the Docker image
         uses: docker/build-push-action@v1
         with:
